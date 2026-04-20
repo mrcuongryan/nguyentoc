@@ -7,8 +7,12 @@ import { Person, Relationship } from "@/types";
 import { useMemo } from "react";
 import dynamic from "next/dynamic";
 
-const FamilyTree = dynamic(() => import("@/components/FamilyTree"));
-const MindmapTree = dynamic(() => import("@/components/MindmapTree"));
+const FamilyTree = dynamic(() => import("@/components/FamilyTree"), {
+  ssr: false,
+});
+const MindmapTree = dynamic(() => import("@/components/MindmapTree"), {
+  ssr: false,
+});
 const BubbleMapTree = dynamic(
   () =>
     import("@/components/BubbleMapTree").catch((err) => {
