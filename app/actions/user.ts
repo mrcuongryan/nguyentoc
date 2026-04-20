@@ -4,6 +4,8 @@ import { UserRole } from "@/types";
 import { getSupabase } from "@/utils/supabase/queries";
 import { revalidatePath } from "next/cache";
 
+export const runtime = "edge";
+
 export async function changeUserRole(userId: string, newRole: UserRole) {
   const supabase = await getSupabase();
   const { error } = await supabase.rpc("set_user_role", {

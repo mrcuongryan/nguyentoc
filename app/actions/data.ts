@@ -4,6 +4,8 @@ import { Relationship } from "@/types";
 import { getIsAdmin, getSupabase } from "@/utils/supabase/queries";
 import { revalidatePath } from "next/cache";
 
+export const runtime = "edge";
+
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 /**
