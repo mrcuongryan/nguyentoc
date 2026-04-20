@@ -3,8 +3,6 @@ import { Inter, Playfair_Display } from "next/font/google";
 import config from "./config";
 import "./globals.css";
 
-export const runtime = "edge";
-
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
   variable: "--font-inter",
