@@ -4,8 +4,6 @@ import { getProfile, getSupabase } from "@/utils/supabase/queries";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
-export const runtime = "edge";
-
 export async function deleteMemberProfile(memberId: string) {
   const profile = await getProfile();
   const supabase = await getSupabase();
