@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/dashboard/data/page": "/dashboard/data",
+  "/dashboard/events/page": "/dashboard/events",
+  "/dashboard/kinship/page": "/dashboard/kinship",
+  "/dashboard/lineage/page": "/dashboard/lineage",
+  "/dashboard/members/[id]/edit/page": "/dashboard/members/[id]/edit",
+  "/dashboard/members/[id]/page": "/dashboard/members/[id]",
+  "/dashboard/members/new/page": "/dashboard/members/new",
+  "/dashboard/members/page": "/dashboard/members",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/stats/page": "/dashboard/stats",
+  "/dashboard/users/page": "/dashboard/users",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/missing-db-config/page": "/missing-db-config",
+  "/page": "/",
+  "/setup/page": "/setup"
+}

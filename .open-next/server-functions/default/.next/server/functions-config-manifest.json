@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "functions": {
+    "/dashboard": {},
+    "/dashboard/data": {},
+    "/dashboard/events": {},
+    "/dashboard/kinship": {},
+    "/dashboard/lineage": {},
+    "/dashboard/members": {},
+    "/dashboard/members/[id]": {},
+    "/dashboard/members/[id]/edit": {},
+    "/dashboard/members/new": {},
+    "/dashboard/stats": {},
+    "/dashboard/users": {}
+  }
+}

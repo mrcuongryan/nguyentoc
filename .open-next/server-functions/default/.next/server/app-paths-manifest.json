@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/dashboard/data/page": "app-edge-has-no-entrypoint",
+  "/dashboard/events/page": "app-edge-has-no-entrypoint",
+  "/dashboard/kinship/page": "app-edge-has-no-entrypoint",
+  "/dashboard/lineage/page": "app-edge-has-no-entrypoint",
+  "/dashboard/members/[id]/edit/page": "app-edge-has-no-entrypoint",
+  "/dashboard/members/[id]/page": "app-edge-has-no-entrypoint",
+  "/dashboard/members/new/page": "app-edge-has-no-entrypoint",
+  "/dashboard/members/page": "app-edge-has-no-entrypoint",
+  "/dashboard/page": "app-edge-has-no-entrypoint",
+  "/dashboard/stats/page": "app-edge-has-no-entrypoint",
+  "/dashboard/users/page": "app-edge-has-no-entrypoint",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js",
+  "/missing-db-config/page": "app/missing-db-config/page.js",
+  "/page": "app/page.js",
+  "/setup/page": "app/setup/page.js"
+}
